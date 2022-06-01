@@ -656,15 +656,15 @@ const Home = (props: HomeProps) => {
                                                 />
                                             </GatewayProvider>
                                         ) : (
-                                            /*<MintButton
+                                            <MintButton
                                                 candyMachine={candyMachine}
                                                 isMinting={isMinting}
                                                 isActive={isActive}
                                                 isEnded={isEnded}
                                                 isSoldOut={isSoldOut}
                                                 onMint={startMint}
-                                            />*/
-                                            <MultiMintButton
+                                            />
+                                           /* <MultiMintButton
                                                 candyMachine={candyMachine}
                                                 isMinting={isMinting}
                                                 isActive={isActive}
@@ -672,7 +672,7 @@ const Home = (props: HomeProps) => {
                                                 isSoldOut={isSoldOut}
                                                 onMint={startMint}
                                                 price={whitelistEnabled && (whitelistTokenBalance > 0) ? whitelistPrice : price}
-                                            />
+                                            />*/
                                         ) :
                                         <h1>Mint is private.</h1>
                                         )}
